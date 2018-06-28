@@ -1,0 +1,7 @@
+/Users/Guest/Desktop/Game.Solution/Game/bin/Debug/netcoreapp1.1/Game.deps.json
+/Users/Guest/Desktop/Game.Solution/Game/bin/Debug/netcoreapp1.1/Game.dll
+/Users/Guest/Desktop/Game.Solution/Game/bin/Debug/netcoreapp1.1/Game.pdb
+/Users/Guest/Desktop/Game.Solution/Game/obj/Debug/netcoreapp1.1/Game.csproj.CoreCompileInputs.cache
+/Users/Guest/Desktop/Game.Solution/Game/obj/Debug/netcoreapp1.1/Game.AssemblyInfo.cs
+/Users/Guest/Desktop/Game.Solution/Game/obj/Debug/netcoreapp1.1/Game.dll
+/Users/Guest/Desktop/Game.Solution/Game/obj/Debug/netcoreapp1.1/Game.pdb

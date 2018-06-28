@@ -1,0 +1,14 @@
+/Users/Guest/Desktop/Game.Solution/Game.Tests/bin/Debug/netcoreapp1.1/Game.Tests.deps.json
+/Users/Guest/Desktop/Game.Solution/Game.Tests/bin/Debug/netcoreapp1.1/Game.Tests.runtimeconfig.json
+/Users/Guest/Desktop/Game.Solution/Game.Tests/bin/Debug/netcoreapp1.1/Game.Tests.runtimeconfig.dev.json
+/Users/Guest/Desktop/Game.Solution/Game.Tests/obj/Debug/netcoreapp1.1/Game.Tests.csproj.CoreCompileInputs.cache
+/Users/Guest/Desktop/Game.Solution/Game.Tests/obj/Debug/netcoreapp1.1/Game.Tests.AssemblyInfo.cs
+/Users/Guest/Desktop/Game.Solution/Game.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/Guest/Desktop/Game.Solution/Game.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/Guest/Desktop/Game.Solution/Game.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/Guest/Desktop/Game.Solution/Game.Tests/bin/Debug/netcoreapp1.1/Game.Tests.dll
+/Users/Guest/Desktop/Game.Solution/Game.Tests/bin/Debug/netcoreapp1.1/Game.Tests.pdb
+/Users/Guest/Desktop/Game.Solution/Game.Tests/bin/Debug/netcoreapp1.1/Game.dll
+/Users/Guest/Desktop/Game.Solution/Game.Tests/bin/Debug/netcoreapp1.1/Game.pdb
+/Users/Guest/Desktop/Game.Solution/Game.Tests/obj/Debug/netcoreapp1.1/Game.Tests.dll
+/Users/Guest/Desktop/Game.Solution/Game.Tests/obj/Debug/netcoreapp1.1/Game.Tests.pdb
