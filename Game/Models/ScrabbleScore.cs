@@ -18,5 +18,15 @@ namespace Game
         {
             _word = word;
         }
+
+        public int GetTotalScore()
+        {
+            return _totalScore;
+        }
+
+        public void SetTotalScore(int score)
+        {
+            _totalScore += score;
+        }
     }
 }

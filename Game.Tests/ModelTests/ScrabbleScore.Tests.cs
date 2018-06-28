@@ -16,5 +16,14 @@ namespace Game.Tests
             newGame.SetWord(word);
             Assert.AreEqual(word, newGame.GetWord());
         }
+
+        [TestMethod]
+        public void GetSetTotalScore_GetsSetsTotalScore_True()
+        {
+            ScrabbleScore newGame = new ScrabbleScore();
+            int score = 1;
+            newGame.SetTotalScore(score);
+            Assert.AreEqual(score, newGame.GetTotalScore());
+        }
     }
 }
