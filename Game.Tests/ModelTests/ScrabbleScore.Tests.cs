@@ -12,6 +12,9 @@ namespace Game.Tests
         public void GetSetWord_GetsSetsUserWord_True()
         {
             ScrabbleScore newGame = new ScrabbleScore();
+            string word = "noob";
+            newGame.SetWord(word);
+            Assert.AreEqual(word, newGame.GetWord());
         }
     }
 }

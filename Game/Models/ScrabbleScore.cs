@@ -9,16 +9,14 @@ namespace Game
         private int _totalScore = 0;
         private Dictionary<char, int> letterScores = new Dictionary<char, int>() {};
 
-        public bool GetWord()
+        public string GetWord()
         {
-            //return _word;
-            return false;
+            return _word;
         }
 
-        public bool SetWord(string word)
+        public void SetWord(string word)
         {
-            //_word = word;
-            return false;
+            _word = word;
         }
     }
 }
