@@ -25,5 +25,15 @@ namespace Game.Tests
             newGame.SetTotalScore(score);
             Assert.AreEqual(score, newGame.GetTotalScore());
         }
+
+        [TestMethod]
+        public void GetSetWord_GetsSetsUserWordToLowerCase_True()
+        {
+            {
+                ScrabbleScore newGame = new ScrabbleScore();
+                newGame.SetWord("NOOB");
+                Assert.AreEqual("noob", newGame.GetWord());
+            }
+        }
     }
 }

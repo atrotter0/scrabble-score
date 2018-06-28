@@ -7,7 +7,7 @@ namespace Game
     {
         private string _word = "";
         private int _totalScore = 0;
-        private Dictionary<char, int> letterScores = new Dictionary<char, int>() {};
+        private Dictionary<char, int> _letterScores = new Dictionary<char, int>() {};
 
         public string GetWord()
         {
@@ -16,6 +16,7 @@ namespace Game
 
         public void SetWord(string word)
         {
+            word = word.ToLower();
             _word = word;
         }
 
@@ -27,6 +28,12 @@ namespace Game
         public void SetTotalScore(int score)
         {
             _totalScore += score;
+        }
+
+        public void CreateDictionary()
+        {
+            // _letterScores = new Dictionary<char, int>() {};
+            // _letterScores['a'];
         }
     }
 }
