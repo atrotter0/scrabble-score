@@ -65,5 +65,11 @@ namespace Game
         {
             return _letterScores[letter];
         }
+
+        public char[] WordToLetters(string word)
+        {
+            char[] letters = word.ToCharArray();
+            return letters;
+        }
     }
 }

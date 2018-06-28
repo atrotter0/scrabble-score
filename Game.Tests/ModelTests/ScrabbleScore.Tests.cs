@@ -41,5 +41,14 @@ namespace Game.Tests
             newGame.CreateLetterScores();
             Assert.AreEqual(1, newGame.GetLetterScore('a'));
         }
+
+        [TestMethod]
+        public void WordToLetters_TurnsWordIntoLetters_True()
+        {
+            ScrabbleScore newGame = new ScrabbleScore();
+            newGame.SetWord("noob");
+            char[] wordSplit = { 'n', 'o', 'o', 'b' };
+            CollectionAssert.AreEqual(wordSplit, newGame.WordToLetters(newGame.GetWord()));
+        }
     }
 }
