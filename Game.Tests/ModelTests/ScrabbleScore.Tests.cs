@@ -29,11 +29,17 @@ namespace Game.Tests
         [TestMethod]
         public void GetSetWord_GetsSetsUserWordToLowerCase_True()
         {
-            {
-                ScrabbleScore newGame = new ScrabbleScore();
-                newGame.SetWord("NOOB");
-                Assert.AreEqual("noob", newGame.GetWord());
-            }
+            ScrabbleScore newGame = new ScrabbleScore();
+            newGame.SetWord("NOOB");
+            Assert.AreEqual("noob", newGame.GetWord());
+        }
+
+        [TestMethod]
+        public void GetCreateLetterScore_CreatesAndGetsLetterScore_True()
+        {
+            ScrabbleScore newGame = new ScrabbleScore();
+            newGame.CreateLetterScores();
+            Assert.AreEqual(1, newGame.GetLetterScore('a'));
         }
     }
 }
