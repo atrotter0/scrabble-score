@@ -63,6 +63,7 @@ namespace Game
 
         public int GetLetterScore(char letter)
         {
+            this.CreateLetterScores();
             return _letterScores[letter];
         }
 
@@ -70,6 +71,15 @@ namespace Game
         {
             char[] letters = word.ToCharArray();
             return letters;
+        }
+
+        public void SumScore()
+        {
+            char[] letters = this.WordToLetters(this.GetWord());
+            for (int i = 0; i < letters.Length; i++)
+            {
+                this.SetTotalScore(this.GetLetterScore(letters[i]));
+            }
         }
     }
 }

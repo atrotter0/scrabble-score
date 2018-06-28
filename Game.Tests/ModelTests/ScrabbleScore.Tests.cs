@@ -39,7 +39,7 @@ namespace Game.Tests
         {
             ScrabbleScore newGame = new ScrabbleScore();
             newGame.CreateLetterScores();
-            Assert.AreEqual(1, newGame.GetLetterScore('a'));
+            Assert.AreEqual(1, newGame.GetLetterScore('n'));
         }
 
         [TestMethod]
@@ -49,6 +49,15 @@ namespace Game.Tests
             newGame.SetWord("noob");
             char[] wordSplit = { 'n', 'o', 'o', 'b' };
             CollectionAssert.AreEqual(wordSplit, newGame.WordToLetters(newGame.GetWord()));
+        }
+
+        [TestMethod]
+        public void SumScore_SumsValueOfLettersInWord_Int()
+        {
+            ScrabbleScore newGame = new ScrabbleScore();
+            newGame.SetWord("noob");
+            newGame.SumScore();
+            Assert.AreEqual(6, newGame.GetTotalScore());
         }
     }
 }
